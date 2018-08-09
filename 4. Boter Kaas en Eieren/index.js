@@ -106,6 +106,10 @@ function isLeegVakje(vaknr){
 	return false
 }
 
+function veranderBeurt(){ 
+	beurtX = !beurtX
+}
+
 function getArrayVakjes(){
 	return arrayVakjes
 }
